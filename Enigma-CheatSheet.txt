@@ -1,0 +1,36 @@
+click
+char naar alfabet index				// gaat naar machine vanaf chararray
+alfabet index naar scramble			// gaat naar rotorIII
+scramble-value naar alfabet-rotor	
+alfabet-rotor index naar scramble		// gaat naar rotorII
+scramble-value naar alfabet-rotor	
+alfabet-rotor index naar scramble		// gaat naar rotorI
+scramble-value naar alfabet-rotor
+alfabet-rotor value naar reflector index	// gaat naar reflector
+reflector zoekt koppel
+
+koppel naar alfabet-value			// gaat naar rotorI
+alfabet-value naar scramble-value
+scramble-index naar alfabet			// gaat naar rotorII
+alfabet-value naar scramble
+scramble-index naar alfabet			// gaat naar rotorIII
+alfabet-value naar scramble		
+scramble-index naar output			// done
+
+AAA
+E N I G M A	input
+L E V X	W C	rotorIII
+L D Z N	G F	rotorII
+T F J W	D G	rotorI
+T F J V D G	reflector
+ t t t b t t
+Z S X V H L	rotorI
+J S Q I	P E	rotorII
+C G T J	Z F	rotorIII
+F Q G A	H W	output
+
+CAT
+Q T R M G S
+
+DOG
+G S P H D X
